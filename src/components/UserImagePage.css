@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(1, 1, 1);
+    padding: 0;
+}
+.userMain_block{
+    padding-top: 40px;
+    display: block;
+    flex-direction: column; 
+    color: white;
+    height: 50%;
+    background-color: rgb(1, 1, 1);
+}
+.userimage_main{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.user_slogan{
+    height: 420px;
+    text-align: center;
+    line-height: 120px;
+    margin-top: 30px;
+    font-family: Angels;
+}
+.user_image_outer{
+    overflow: hidden;
+    margin-right: -10%;
+    margin-bottom: 10px;
+    box-shadow: rgba(255, 255, 255, 0.664) 0px 0px 15px;
+    background-color: #262626;
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 45%;
+}
+.design_side{
+    z-index: 10;
+    display: block;
+    min-height: 550px;
+    background-color: aqua;
+}
+.aboutme_box{
+    width: 100%;
+    margin: 0;
+    display: block;
+    padding: 0px 10% 10px 10%;
+    font-family: Berlin Sans FB;
+    font-size: 22px;
+    background-image: linear-gradient(rgba(193, 71, 233, 1), rgb(247, 185, 255), rgb(193, 71, 233, 1));
+    text-align: left;
+}
+.custom-shape-divider-bottom-1695451378 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.imageShadow{
+    filter: drop-shadow(10px -12px rgb(117, 109, 252)) drop-shadow(-10px -12px rgb(255, 73, 182)) brightness(1.2);
+    /* filter: contrast(1.2); */
+}
+.custom-shape-divider-bottom-1695451378 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 78px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1695451378 .shape-fill {
+    fill: #262626;
+}
