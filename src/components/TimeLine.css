@@ -71,3 +71,11 @@
 .skills_main_box :nth-child(even).skills_box{
     flex-direction: row-reverse;
 }
+@media only screen and (max-width: 1090px) {
+    .even_arrow_line{
+        display: none;
+    } 
+    .odd_arrow_line{
+        display: none;
+    }   
+}
