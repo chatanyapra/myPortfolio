@@ -2,14 +2,6 @@ import React from 'react'
 import imageUser from '../assets/images/student_boy_laptop.png';
 
 export default function UserImagePage() {
-    var num;
-    function mouseEvent(event) {
-        var x= event.clientX;
-        var y= event.clientY;
-        num= Math.floor((Math.atan2(y, x) * 180) / Math.PI);
-        console.log(num);
-        // return styleShadow;
-    };
     var shadowImage= <img src={imageUser} alt='Logo' style={{filter: "drop-shadow(10px -12px rgb(117, 109, 252)) drop-shadow(-10px -12px rgb(255, 73, 182)) brightness(1.2)" }}/>
 
   return (
