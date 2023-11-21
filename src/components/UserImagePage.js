@@ -5,7 +5,7 @@ export default function UserImagePage() {
     var shadowImage= <img src={imageUser} alt='Logo' style={{filter: "drop-shadow(10px -12px rgb(117, 109, 252)) drop-shadow(-10px -12px rgb(255, 73, 182)) brightness(1.2)" }}/>
 
   return (
-    <div className='move_area' onMouseOver={mouseEvent}>
+    <div className='move_area'>
         <div className='userMain_block'>
             <div className='userimage_main'>
                 <div className='user_slogan' style={{width: '40%', zIndex: '2'}}>
